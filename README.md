@@ -35,6 +35,8 @@ Company B,https://www.linkedin.com/company/company-b
 
 Run the `main.py` script:
 ```bash
+python3 main.py
+or
 python main.py
 ```
 
