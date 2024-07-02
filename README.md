@@ -1,5 +1,5 @@
 # Company Follower Scraper
-This script scrapes follower counts from company LinkedIn URLs listed in a CSV file and saves the results in a new CSV file. It uses the **`requests`** library to make HTTP requests and **`BeautifulSoup`** to parse HTML content.
+This script scrapes follower counts from company LinkedIn URLs listed in a CSV file and saves the results in a new CSV file. It uses the **requests** library to make HTTP requests and **BeautifulSoup** to parse HTML content.
 
 ### Prerequisites
 Python 3.x
