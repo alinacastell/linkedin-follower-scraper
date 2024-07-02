@@ -3,6 +3,7 @@ This script scrapes follower counts from company LinkedIn URLs listed in a CSV f
 
 ### Prerequisites
 Python 3.x
+
 Virtual environment (optional but recommended)
 
 ### Installation
@@ -32,19 +33,19 @@ Company A,https://www.linkedin.com/company/company-a
 Company B,https://www.linkedin.com/company/company-b
 ```
 
-Run the main.py script:
+Run the `main.py` script:
 ```bash
 python main.py
 ```
 
-Check the generated followers.csv file for the results:
+Check the generated `followers.csv` file for the results:
 
 - The output CSV will have the columns company_name, company_url, and follower_counts.
 
 ## Script Details
 
-**scrape_follower_count(company_url)**: Scrapes the follower count from the given LinkedIn URL.
+- **scrape_follower_count(company_url)**: Scrapes the follower count from the given LinkedIn URL.
 
-**save_to_csv(data, file_path)**: Saves the scraped data to a CSV file.
+- **save_to_csv(data, file_path)**: Saves the scraped data to a CSV file.
 
-**main(input_csv, output_csv)**: Main function that reads the input CSV, scrapes follower counts, and saves the results to the output CSV.
+- **main(input_csv, output_csv)**: Main function that reads the input CSV, scrapes follower counts, and saves the results to the output CSV.
